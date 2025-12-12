@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cosmic glowing background */
+.hero-bg {
+  background: radial-gradient(circle at top, #d4af3744, transparent 70%),
+              url('/stars.png');
+  background-size: cover;
+}
